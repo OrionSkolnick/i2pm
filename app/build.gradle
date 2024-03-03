@@ -23,6 +23,8 @@ repositories {
 dependencies {
     // Use JUnit test framework.
     testImplementation libs.junit
+    implementation group: 'com.thetransactioncompany', name: 'jsonrpc2-client', version: '2.1.1' //jsonrpc libs
+    implementation group: 'com.thetransactioncompany', name: 'jsonrpc2-base', version: '2.1.1' //jsonrpc libs
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
