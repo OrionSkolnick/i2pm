@@ -29,5 +29,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.i2pm.App"
+    mainClass = "org.i2pm.Main"
 }
